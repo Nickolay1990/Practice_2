@@ -1,0 +1,325 @@
+body {
+    background-color: #f9fbff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #151d28;
+    letter-spacing: -0.02em;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ======================== header ============================= */
+.pageheader {
+    display: flex;
+}
+
+.pageheader-container-title {
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 1.29;
+    color: #415167;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pageheader-container-title-span {
+    display: block;
+    color: #f9fbff;
+    background-color: #c7a17a;
+}
+
+.pageheader-nav {
+    background-color: #415167;
+}
+
+.pageheader-nav-list-item {
+    font-weight: 300;
+    line-height: 1.5;
+    color: #edf0f5;
+}
+
+.pageheader-nav-list-item-title {
+    font-weight: 700;
+}
+
+.pageheader-nav-list-item-link {
+    color: currentColor;
+}
+
+/* =========================== section 1 ============================== */
+
+.fs-container {
+    margin-top: 87px;
+    margin-bottom: 128px;
+}
+
+.fs-container-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: #415167;
+}
+
+.fs-container-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1.13;
+    color: #415167;
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+.fs-container-list {
+    display: flex;
+    width: 1004px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.fs-container-list-item {
+    max-width: 226px;
+    text-align: center;
+}
+
+.fs-container-list-item-image {
+    width: 80px;
+    height: 81px;
+    margin-bottom: 41px;
+}
+
+.fs-container-list-item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    color: #232c38;
+    margin-bottom: 12px;
+}
+/* =========================== section 2 ============================== */
+
+.ss {
+    margin-bottom: 127px;
+}
+
+.ss-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.ss-list-item {
+    width: calc(50% - 10px);
+    display: flex;
+}
+
+.ss-list-item-div {
+    background-color: #edf0f5;
+}
+
+.ss-list-item-secdiv {
+    padding: 42px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 24px 0 rgba(205, 205, 205, 0.5);
+}
+.ss-list-item-secdiv-cost {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #c7a17a;
+    margin-bottom: 8px;
+}
+.ss-list-item-secdiv-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    color: #232c38;
+    margin-bottom: 24px;
+}
+.ss-list-item-secdiv-text {
+    margin-bottom: 18px;
+}
+.ss-list-item-secdiv-firbtn {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #f9fbff;
+    border-radius: 19px;
+    width: 134px;
+    height: 32px;
+    background: #c7a17a;
+    border: 0px;
+}
+.ss-list-item-secdiv-secbtn {
+    font-weight: 700;
+    font-size: 16px;
+    color: #415167;
+    width: 88px;
+    height: 32px;
+    border: 0px;
+    background-color: transparent;
+}
+/* =========================== section 3 ============================== */
+.ts {
+    background: #edf0f5;
+    padding-top: 86px;
+    padding-bottom: 120px;
+}
+
+.ts .fs-container-text {
+    margin: 8px;
+}
+
+.ts .fs-container-title {
+    margin-bottom: 66px;
+}
+
+.ts-container {
+    display: flex;
+    margin: 0 auto;
+    width: 1138px;
+    background-color: #ffffff;
+}
+
+.ts-container-img {
+    margin-top: 60px;
+}
+
+.ts-container-div {
+    padding: 64px;
+}
+
+.ts-container-div-cost {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #c7a17a;
+    margin-bottom: 12px;
+}
+
+.ts-container-div-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16667;
+    color: #232c38;
+    margin-bottom: 12px;
+}
+
+.ts-container-div-text {
+    margin-bottom: 24px;
+}
+
+.ts-container-div-logowraper {
+    margin-bottom: 46px;
+}
+
+.ts-container-div-logowraper-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ts-container-div-logowraper-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.ts-container-div-logowraper-list-item-image {
+    margin-right: 12px;
+}
+
+.ts-container-div-logowraper-list-item-sign {
+    max-width: 174px;
+}
+
+.ts-container-div-btnwraper {
+    display: flex;
+    justify-content: space-between;
+}
+/* =========================== section 4 ============================== */
+.fd {
+    padding-top: 88px;
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-bottom: 128px;
+}
+
+.fd .fs-container-text {
+    margin-bottom: 6px;
+}
+
+.fd .fs-container-title {
+    margin-bottom: 64px;
+}
+
+.fd-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.fd-container-card {
+    width: 360px;
+    box-shadow: 0 4px 24px 0 rgba(205, 205, 205, 0.5);
+}
+
+.fd-container-card-color {
+    background-color: #edf0f5;
+}
+
+.fd-container-card-description {
+    padding: 42px;
+}
+
+.fd-container-card-description-cost {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #c7a17a;
+    margin-bottom: 10px;
+}
+
+.fd-container-card-description-cost-old {
+    font-style: italic;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #415167;
+}
+
+.fd-container-card-description-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    color: #232c38;
+    margin-bottom: 10px;
+}
+
+.fd-container-card-description-text {
+    margin-bottom: 32px;
+}
+/* =========================== footer ============================== */
+.pagefooter {
+    background: #edf0f5;
+    padding: 18px 0;
+}
+.pagefooter-text {
+    text-align: center;
+    font-style: italic;
+    line-height: 1.37;
+    color: #415167;
+}
